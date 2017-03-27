@@ -29,7 +29,7 @@ function runslides()
               i=0;
           }
     masthead.src = slides[i];
-    i+=1;
+    i++;
     setTimeout("fadeout()",5000);
 }
 
