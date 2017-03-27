@@ -1,0 +1,480 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+@import url('https://fonts.googleapis.com/css?family=Merriweather|Roboto');
+
+body
+{
+    max-width: 100rem;
+    background-color: darkkhaki;
+    
+}
+
+
+.title
+{
+    font-size: 2rem;
+    text-shadow: 1px 1px 1px gray;
+    text-align: center;
+    color:brown;
+    font-family: 'Merriweather', serif;
+    font-weight: 600;
+}
+
+header
+{
+    margin: 1rem;
+}
+header ul
+{
+    list-style-type: none;
+    margin-top: 2rem;
+}
+
+header ul li
+{
+    border: 1px solid white;
+    background-color: burlywood;
+}
+
+header ul li a
+{
+    display: block;
+    text-decoration: none;
+    color: darkgreen;
+    text-align: center;
+    font-size: 1rem;
+    font-family: 'Merriweather', serif;
+   
+    font-weight: 600;
+    padding: 1rem 0 1rem 0;
+}
+
+header ul li a:hover
+{
+    color: brown;
+    text-shadow: none;
+}
+
+.masthead
+{
+    margin: 1rem 0 1rem 0;
+    width: 100%;
+    height: 200px;
+}
+.masthead img
+{
+    height: 200px;
+    width: 100%;
+    border: 1px solid white;
+    box-shadow: 2px 2px 2px black;
+}
+
+#mhimg
+{
+    transition: opacity 1s ease-out;
+}
+ main
+{
+    margin: 2rem 1rem 1rem 1rem;
+
+}
+main ul
+{
+    list-style-type: none;
+    margin-top: 2rem;
+    
+}
+
+main ul li
+{
+    display: inline-block;
+    width: 32%;
+    color: brown;
+    text-align: center;
+    font-family: 'Roboto',serif;
+   
+    font-size: 0.618rem;
+    
+}
+main ul li span
+{
+    
+    padding: 0.3rem;
+}
+
+main ul li span:hover
+{
+    background-color: brown;
+    color: white;
+}
+
+#active
+{
+    background-color: brown;
+    color: white;
+}
+
+
+.heading
+{
+    font-size: 1rem;
+    font-family: 'Merriweather',serif;
+    text-align: center;
+    color: chocolate;
+    font-weight: 800;
+}
+.container
+{
+    width: 100%;
+    margin-top: 1rem;
+    font-family: 'Roboto',sans-serif;
+    font-size: 0.618rem;
+}
+
+figure 
+{
+    width: 100%;
+    height: 200px;
+    border: 1px solid white;
+    box-shadow: 1px 1px 1px black;
+}
+figure img
+{
+    width: 100%;
+    height: 200px;
+}
+
+
+figcaption
+{
+    clear: both;
+    width: 100%;
+    margin-top: 2rem;
+    line-height: 1.4rem;
+}
+
+footer
+{
+    width: 100%;
+    background-color: cadetblue;
+}
+.social
+{
+    margin: 1rem;
+}
+.social a
+{
+    display: inline-block;
+    text-decoration: none;
+    color: inherit;
+    width: 23.5%;
+    text-align: center;
+}
+.social a i
+{
+    font-size: 30px;
+    color: white;
+    padding: 1rem;
+}
+
+.address
+{
+    list-style-type: none;
+    
+}
+.address li
+{
+    width: 100%;
+    text-align: center;
+    padding: 0.6rem;
+    font-family: 'Roboto', sans-serif;
+    font-size: 0.618rem;
+    
+}
+.address li:first-child
+{
+        color:brown;
+        font-size:1.2rem;
+        font-weight:600;
+    
+}
+/*Tablet*/
+
+@media only screen and (min-width: 35rem) 
+{
+       
+    header ul li
+    {
+        display: inline-block;
+        width: 32%;
+        font-size: 1rem;
+        
+    }
+    header ul li a
+    {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        font-size: 1rem;
+
+    }
+    
+    .masthead
+    {
+        margin: 1rem 0 1rem 0;
+        height: 300px;
+    }
+    .masthead img
+    {
+        height: 300px;
+        width: 100%;
+    }
+    
+    
+ 
+     main
+    {
+        margin: 2rem 1rem 1rem 1rem;
+       
+    }
+    main ul
+    {
+        list-style-type: none;
+       
+        margin: 3rem 3rem 1rem 3rem;
+       
+    
+    }
+
+    main ul li
+    {
+        display: inline-block;
+      
+        color: brown;
+        text-align: center;
+        font-family: 'Roboto',serif;
+         font-size: 1rem;
+      
+    }
+    main ul li span
+    {
+        
+        padding: 0.7rem;
+       
+        
+    }
+    
+    #active
+    {
+        padding: 0.7rem;
+    }
+      
+    
+
+    .heading
+    {
+        font-size: 1.2rem;
+    }
+
+    .container
+    {
+        width: 100%;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+        font-family: 'Roboto',sans-serif;
+        font-size: 1rem;
+       
+    }
+    figure 
+    {
+        width: 40%;
+        height: 200px;
+        border: 1px solid white;
+        box-shadow: 1px 1px 1px black;
+        float: left;
+        margin-bottom: 2rem;
+    }
+    figure img
+    {
+        height: 200px;
+        
+    }
+
+
+    figcaption
+    {
+        float: right;
+        clear: none;
+        width: 55%;
+        margin: 0;
+        line-height: 1.5rem;
+        margin-bottom: 1rem;
+        
+    }
+    footer
+    {
+        clear: both;
+      
+    }
+    .social
+    {
+        margin: 2rem;
+    }
+    
+        
+    
+    .social a i
+    {
+        font-size: 40px;
+        padding: 1rem;
+    }
+
+   
+    .address li
+    {
+        
+        padding: 1rem;
+        font-size: 1rem;
+
+    }
+    .address li:first-child
+    {
+       
+        font-size:1.4rem;
+    }
+
+    
+}
+
+
+/*Desktop */
+
+@media only screen and (min-width: 60rem) 
+{
+    header
+    {
+        margin: 2rem 10rem 0 10rem;
+       
+    }
+       
+    .title
+    {
+        text-align: left;
+        font-size: 2.5rem;
+    }
+    header ul li
+    {
+        display: inline-block;
+        width: 20%;
+        
+    }
+    header ul li a
+    {
+        display: inline-block;
+        text-align: center;
+        font-size: 1.618rem;
+    
+    }
+    .masthead
+    {
+        margin: 1rem 0 1rem 0;
+        height: 400px;
+    }
+    .masthead img
+    {
+        width: 100%;
+        height: 400px;
+    }
+     main
+    {
+        margin: 2rem 10rem 0 10rem;
+       
+       
+    }
+    main ul
+    {
+        list-style-type: none;
+        margin-top: 3rem;
+        margin-left: 0;
+        float: left;
+        width: 22%;
+       
+    }
+
+    main ul li
+    {
+        display: block;
+        margin: 0;
+        padding: 0;
+        width: 100%;
+        text-align: left;
+        margin-bottom: 30px;
+        font-size: 1.2rem;
+       
+ 
+    }
+    main ul li span
+    {
+        margin: 0;
+        width: 100%;
+        padding: 0;
+        padding: 0.6rem;
+      
+    }
+   
+    
+    .heading
+    {
+        font-size: 1.7rem;
+        text-align: left;
+    }
+
+
+    .container
+    {
+        margin-top: 3rem;
+        float: right;
+        width: 70%;
+        margin-left: 0;
+        font-family: 'Roboto',sans-serif;
+        font-size: 1.318rem;
+    }
+    figcaption
+    {
+        line-height: 2rem;
+    }
+    footer
+    {
+        clear: both;
+    }
+      .social
+    {
+        margin: 2rem 10rem 2rem 10rem;
+    }
+    
+        
+    
+    .social a i
+    {
+        font-size: 42px;
+        padding: 1rem;
+    }
+
+   
+    .address li
+    {
+        
+        padding: 1rem;
+        font-size: 1.618rem;
+    }
+    
+    .address li:first-child
+    {
+       
+        font-size:1.8rem;
+    }
+
+}
